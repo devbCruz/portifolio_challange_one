@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Bruno Cruz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+    emailjs.init({
+        publicKey: "YtWRN29oYcEIaQE9qV",
+    });
+    })();
+    </script>
+<body>
+
+
+    <!-- Navegação -->
+    <nav class="nav__menu">
+        <header class="titulo__header"> <i class="fa-solid fa-rocket"></i>Bruno de Oliveira Cruz</header>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#skills">Skills</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#formacao">Formação</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- Seção Hero -->
+    <section class="hero">
+        <div>
+            <h1>Olá, Eu sou Bruno Cruz</h1>
+            <h3>Desenvolvedor Frontend apaixonado por tecnologia e inovação.</h3>
+            <div class="social-links">
+                <a href="https://github.com/devbCruz\" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a>
+                <a href="Bruno_de_oliveia_cruz_cv.pdf" download><i class="fa-solid fa-arrow-down"></i>Download CV</a>
+            </div>
+        </div>
+        <img src="foto_potif.jpg" alt="Foto de Bruno Cruz">
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor apaixonado por tecnologias como HTML, CSS, JavaScript, Angular, Node.js e PHP. Gosto de trabalhar em projetos desafiadores e me mantenho sempre atualizado com as últimas tendências da tecnologia.</p>
+        <p>Além da programação, sou entusiasta de boas práticas de design, UX/UI e otimização de performance.</p>
+    </section>
+
+    <!-- Seção Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>Angular</div>
+            <div>Node.js</div>
+            <div>PHP</div>
+            <div>SQL</div>
+        </div>
+    </section>
+
+    <!-- Seção Formulário de Contato -->
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form aaction="https://formspree.io/f/xjkvkgnw" method="post">
+            <label for="email">Seu email</label>
+            <input name="Email" id="email" type="email" placeholder="Digite seu Email">
+            <label for="email">Menssagem</label>
+            <textarea name="message" placeholder="Digite aqui sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        <div id="status"></div>
+    </section>
+
+    
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Bruno Cruz - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
